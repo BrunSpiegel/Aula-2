@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14;
+
+    color: #3F3D56;
+    font-family: 'roboto', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.title {
+
+    font-size: 37px;
+    margin-top: 68px;
+    margin-bottom: 22px;
+    font-weight: 700
+
+}
+
+.text-label {
+    font-size: 14px; 
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22;
+    
+}
+
+.date-country {
+    margin-bottom: 22px;
+    display:grid;
+
+}
+
+.genre {
+    margin-bottom: 22px;
+    margin-left: 90px;
+    
+}
+
+.subtitle {
+    margin-right: 120;
+}
+
+.register {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
